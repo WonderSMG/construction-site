@@ -41,7 +41,7 @@ const About = () => {
           <h4 className="text-[18px] text-center font-medium pt-14">
             Meet our leaders
           </h4>
-          <section className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10 px-4">
+          <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10 px-4">
             <div className="text-center">
               {/* Polygon Background */}
               <div className="relative w-[150px] h-[150px] md:w-[220px] md:h-[220px] mx-auto">
