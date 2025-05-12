@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wondersmg.github.io/construction-site",
+  "homepage": "https://wayles-d.github.io/construction-site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/WonderSMG/construction-site.git"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/wayles-d/construction-site.git"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
