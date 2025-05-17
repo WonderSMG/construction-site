@@ -2,6 +2,7 @@ import React from "react";
 import officeBuilding from "../assets/office buildings.png";
 import mansion from "../assets/mansions.png";
 import ecoHouse from "../assets/eco-houses.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -37,9 +38,11 @@ const Services = () => {
               We build elegant office buildings that can be custom-made to suit
               your office needs at an affordable price.
             </p>
+            <Link to="/office-buildings">
             <button className="bg-[#006A51] text-white px-4 py-2 rounded hover:bg-[#004D3A] mt-3 transition">
               Learn More
             </button>
+            </Link>
           </div>
         </section>
 
@@ -56,9 +59,11 @@ const Services = () => {
               We build mansions that can be custom-made to suit your unique
               preferences.
             </p>
+            <Link to="/mansions">
             <button className="bg-[#006A51] text-white px-4 py-2 rounded hover:bg-[#004D3A] mt-3 transition">
               Learn More
             </button>
+            </Link>
           </div>
           {/* Image */}
           <div className="flex justify-center">
@@ -91,9 +96,11 @@ const Services = () => {
               We build houses that are eco-friendly and help bring a serene
               environment for any outdoor activity.
             </p>
+            <Link to="/eco-houses">
             <button className="bg-[#006A51] text-white px-4 py-2 rounded hover:bg-[#004D3A] mt-3 transition">
               Learn More
             </button>
+            </Link>
           </div>
         </section>
       </main>
