@@ -94,7 +94,7 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div
             className={`${
-              isMenuOpen ? "block" : "hidden"
+              isMenuOpen ? "block z-50" : "hidden"
             } absolute top-[70px] left-0 w-full bg-white shadow-md md:static md:flex md:gap-10 md:items-center md:justify-end`}
           >
             <div className="flex flex-col md:flex-row gap-4 md:gap-10 p-4 md:p-0">
