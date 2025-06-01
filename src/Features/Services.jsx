@@ -144,7 +144,7 @@ const Services = () => {
             We build elegant office buildings that can be custom-made to suit your office needs at an affordable price.
           </p>
           <Link to="/office-buildings">
-            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200">
+            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200 hover:cursor-pointer">
               Learn More
             </button>
           </Link>
@@ -161,7 +161,7 @@ const Services = () => {
             We build mansions that can be custom-made to suit your unique preferences.
           </p>
           <Link to="/mansions">
-            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200">
+            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200 hover:cursor-pointer">
               Learn More
             </button>
           </Link>
@@ -192,7 +192,7 @@ const Services = () => {
             We build houses that are eco-friendly and help bring a serene environment for any outdoor activity.
           </p>
           <Link to="/eco-houses">
-            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200">
+            <button className="bg-[#006A51] text-white px-5 py-2.5 rounded mt-4 hover:bg-[#004D3A] transition duration-200 hover:cursor-pointer">
               Learn More
             </button>
           </Link>

@@ -30,9 +30,9 @@ const handleHireUsClick = () => {
         bg-[url('https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-no-repeat bg-center h-[30rem] lg:h-[40rem]  bg-gray-100"
       >
         {/* Left Content */}
-        <div className="w-full md:w-[494px] text-center md:text-left bg-white/80 p-4 rounded-md">
+        <div className="w-full md:w-[494px] text-center md:text-left bg-white/80 p-4 rounded-md animate__animated animate__backInRight">
           <h1
-            className="text-3xl md:text-4xl font-bold text-[#006A51] mb-6 leading-tight"
+            className="text-3xl md:text-4xl font-bold text-[#006A51] mb-6 leading-tight animate__animated animate__backInUp animate__slow"
             aria-label="Let's Build it Together"
           >
             Let's Build it Together

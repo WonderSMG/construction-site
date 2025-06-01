@@ -172,7 +172,7 @@ const Contact = () => {
           <div className="flex justify-center mt-4">
             <button
               type="submit"
-              className="bg-[#006A51] text-white py-2 px-6 rounded-lg hover:bg-[#004D3A] transition"
+              className="bg-[#006A51] text-white py-2 px-6 rounded-lg hover:bg-[#004D3A] transition hover:cursor-pointer"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Sending..." : "Send message"}
