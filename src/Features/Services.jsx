@@ -135,7 +135,7 @@ const Services = () => {
           <img
             src={officeBuilding}
             alt="Office Building"
-            className="w-full max-w-sm sm:max-w-md md:max-w-lg object-contain"
+            className="w-full max-w-sm sm:max-w-md md:max-w-lg object-contain "
           />
         </div>
         <div className="text-center lg:text-left max-w-xl mx-auto">
