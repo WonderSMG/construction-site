@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <main className="h-auto bg-[#F1FFF5] mt-10">
-        <section>
+        <section className="pb-10">
           <h4 className="text-[24px] text-center font-semibold pt-8">
             About Us
           </h4>

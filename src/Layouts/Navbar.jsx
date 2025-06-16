@@ -145,10 +145,10 @@ const Navbar = () => {
               Contact Information
             </h2>
             <p className="mb-2">
-              <strong>Email:</strong> contact@pfrancesco.com
+              <strong>Email:</strong> pfrancescoconstruction@gmail.com
             </p>
             <p className="mb-2">
-              <strong>Phone:</strong> +1 (123) 456-7890
+              <strong>Phone:</strong> +61 318 195 187
             </p>
             <p className="mb-4">
               <strong>Office Address:</strong> 2 Venus Place, Kings Langley NSW 2147
