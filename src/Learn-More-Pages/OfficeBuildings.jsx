@@ -12,9 +12,9 @@ const OfficeBuildings = () => {
     navigate("/contact");
   };
   return (
-    <div className="px-6 py-10 max-w-5xl mx-auto">
+    <div className="container py-10 mx-auto w-11/12">
       {/* Hero Section */}
-<div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg mb-10 group">
+<div className="relative w-full h-[500px] rounded-xl overflow-hidden shadow-lg mb-10 group">
 
   {/* Background Image */}
   <img 
